@@ -479,3 +479,180 @@ Call log:
 2026-04-23 09:38:30 | INFO     | LinkedInWatcher | Destination  : D:\Hackthon_0\silver_tier_3\Needs_Action
 2026-04-23 09:38:30 | INFO     | LinkedInWatcher | Poll interval: 60s
 2026-04-23 09:38:30 | INFO     | LinkedInWatcher | Max results  : 10 per cycle
+2026-05-01 17:13:34 | INFO     | LinkedInWatcher | Vault root   : D:\Hackthon_0\silver_tier_3
+2026-05-01 17:13:34 | INFO     | LinkedInWatcher | Destination  : D:\Hackthon_0\silver_tier_3\Needs_Action
+2026-05-01 17:13:34 | INFO     | LinkedInWatcher | Profile dir  : D:\Hackthon_0\silver_tier_3\Logs\linkedin_profile
+2026-05-01 17:13:34 | INFO     | LinkedInWatcher | Keywords     : ['sales', 'inquiry', 'proposal', 'pricing']
+2026-05-01 17:13:34 | INFO     | LinkedInWatcher | Poll interval: 60s
+2026-05-01 17:13:34 | INFO     | LinkedInWatcher | Headless     : False
+2026-05-01 17:13:34 | INFO     | LinkedInWatcher | Launching Chromium (headless=False)…
+2026-05-01 17:13:38 | INFO     | LinkedInWatcher | Browser started.
+2026-05-01 17:13:38 | INFO     | LinkedInWatcher | Navigating to LinkedIn…
+2026-05-01 17:13:47 | WARNING  | LinkedInWatcher | Not logged in. Run: python watchers/linkedin_watcher.py --setup
+2026-05-01 17:13:47 | ERROR    | LinkedInWatcher | LinkedIn session not found. Run --setup first to log in.
+2026-05-01 17:13:48 | INFO     | LinkedInWatcher | Browser stopped.
+2026-05-01 17:13:49 | INFO     | LinkedInWatcher | Loaded 13 seen email IDs.
+2026-05-01 17:13:49 | INFO     | LinkedInWatcher | Loaded existing token: D:\Hackthon_0\silver_tier_3\token.json
+2026-05-01 17:13:49 | INFO     | LinkedInWatcher | Gmail API service ready.
+2026-05-01 17:13:49 | INFO     | LinkedInWatcher | Vault root   : D:\Hackthon_0\silver_tier_3
+2026-05-01 17:13:49 | INFO     | LinkedInWatcher | Destination  : D:\Hackthon_0\silver_tier_3\Needs_Action
+2026-05-01 17:13:49 | INFO     | LinkedInWatcher | Poll interval: 60s
+2026-05-01 17:13:49 | INFO     | LinkedInWatcher | Max results  : 10 per cycle
+2026-05-01 17:13:51 | DEBUG    | LinkedInWatcher | Already written, skipping: EMAIL_19ced9888cfa.md
+2026-05-01 17:13:52 | DEBUG    | LinkedInWatcher | Already written, skipping: EMAIL_19ce5e355a8f.md
+2026-05-01 17:13:52 | INFO     | LinkedInWatcher | Loaded 13 seen email IDs.
+2026-05-01 17:13:52 | INFO     | LinkedInWatcher | Loaded existing token: D:\Hackthon_0\silver_tier_3\token.json
+2026-05-01 17:13:52 | INFO     | LinkedInWatcher | Gmail API service ready.
+2026-05-01 17:13:52 | INFO     | LinkedInWatcher | Vault root   : D:\Hackthon_0\silver_tier_3
+2026-05-01 17:13:52 | INFO     | LinkedInWatcher | Destination  : D:\Hackthon_0\silver_tier_3\Needs_Action
+2026-05-01 17:13:52 | INFO     | LinkedInWatcher | Poll interval: 60s
+2026-05-01 17:13:52 | INFO     | LinkedInWatcher | Max results  : 10 per cycle
+2026-05-01 17:13:53 | INFO     | LinkedInWatcher | Vault root   : D:\Hackthon_0\silver_tier_3
+2026-05-01 17:13:53 | INFO     | LinkedInWatcher | Destination  : D:\Hackthon_0\silver_tier_3\Needs_Action
+2026-05-01 17:13:53 | INFO     | LinkedInWatcher | Profile dir  : D:\Hackthon_0\silver_tier_3\Logs\linkedin_profile
+2026-05-01 17:13:53 | INFO     | LinkedInWatcher | Keywords     : ['sales', 'inquiry', 'proposal', 'pricing']
+2026-05-01 17:13:53 | INFO     | LinkedInWatcher | Poll interval: 60s
+2026-05-01 17:13:53 | INFO     | LinkedInWatcher | Headless     : False
+2026-05-01 17:13:53 | INFO     | LinkedInWatcher | Launching Chromium (headless=False)…
+2026-05-01 17:13:57 | INFO     | LinkedInWatcher | Browser started.
+2026-05-01 17:13:57 | INFO     | LinkedInWatcher | Navigating to LinkedIn…
+2026-05-01 17:14:01 | ERROR    | LinkedInWatcher | Failed to load LinkedIn: Page.wait_for_selector: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("nav.global-nav, [data-test-global-nav-link]") to be visible
+
+2026-05-01 17:14:01 | ERROR    | LinkedInWatcher | LinkedIn session not found. Run --setup first to log in.
+2026-05-01 17:14:01 | INFO     | LinkedInWatcher | Browser stopped.
+2026-05-01 17:14:03 | INFO     | LinkedInWatcher | Loaded 13 seen email IDs.
+2026-05-01 17:14:03 | INFO     | LinkedInWatcher | Loaded existing token: D:\Hackthon_0\silver_tier_3\token.json
+2026-05-01 17:14:03 | INFO     | LinkedInWatcher | Gmail API service ready.
+2026-05-01 17:14:03 | INFO     | LinkedInWatcher | Vault root   : D:\Hackthon_0\silver_tier_3
+2026-05-01 17:14:03 | INFO     | LinkedInWatcher | Destination  : D:\Hackthon_0\silver_tier_3\Needs_Action
+2026-05-01 17:14:03 | INFO     | LinkedInWatcher | Poll interval: 60s
+2026-05-01 17:14:03 | INFO     | LinkedInWatcher | Max results  : 10 per cycle
+2026-05-01 17:14:04 | INFO     | LinkedInWatcher | Vault root   : D:\Hackthon_0\silver_tier_3
+2026-05-01 17:14:04 | INFO     | LinkedInWatcher | Destination  : D:\Hackthon_0\silver_tier_3\Needs_Action
+2026-05-01 17:14:04 | INFO     | LinkedInWatcher | Profile dir  : D:\Hackthon_0\silver_tier_3\Logs\linkedin_profile
+2026-05-01 17:14:04 | INFO     | LinkedInWatcher | Keywords     : ['sales', 'inquiry', 'proposal', 'pricing']
+2026-05-01 17:14:04 | INFO     | LinkedInWatcher | Poll interval: 60s
+2026-05-01 17:14:04 | INFO     | LinkedInWatcher | Headless     : False
+2026-05-01 17:14:04 | INFO     | LinkedInWatcher | Launching Chromium (headless=False)…
+2026-05-01 17:14:06 | INFO     | LinkedInWatcher | Vault root   : D:\Hackthon_0\silver_tier_3
+2026-05-01 17:14:06 | INFO     | LinkedInWatcher | Destination  : D:\Hackthon_0\silver_tier_3\Needs_Action
+2026-05-01 17:14:06 | INFO     | LinkedInWatcher | Profile dir  : D:\Hackthon_0\silver_tier_3\Logs\linkedin_profile
+2026-05-01 17:14:06 | INFO     | LinkedInWatcher | Keywords     : ['sales', 'inquiry', 'proposal', 'pricing']
+2026-05-01 17:14:06 | INFO     | LinkedInWatcher | Poll interval: 60s
+2026-05-01 17:14:06 | INFO     | LinkedInWatcher | Headless     : False
+2026-05-01 17:14:06 | INFO     | LinkedInWatcher | Launching Chromium (headless=False)…
+2026-05-01 17:14:08 | INFO     | LinkedInWatcher | Vault root   : D:\Hackthon_0\silver_tier_3
+2026-05-01 17:14:08 | INFO     | LinkedInWatcher | Destination  : D:\Hackthon_0\silver_tier_3\Needs_Action
+2026-05-01 17:14:08 | INFO     | LinkedInWatcher | Profile dir  : D:\Hackthon_0\silver_tier_3\Logs\linkedin_profile
+2026-05-01 17:14:08 | INFO     | LinkedInWatcher | Keywords     : ['sales', 'inquiry', 'proposal', 'pricing']
+2026-05-01 17:14:08 | INFO     | LinkedInWatcher | Poll interval: 60s
+2026-05-01 17:14:08 | INFO     | LinkedInWatcher | Headless     : False
+2026-05-01 17:14:08 | INFO     | LinkedInWatcher | Launching Chromium (headless=False)…
+2026-05-01 17:14:12 | INFO     | LinkedInWatcher | Browser started.
+2026-05-01 17:14:12 | INFO     | LinkedInWatcher | Navigating to LinkedIn…
+2026-05-01 17:14:21 | WARNING  | LinkedInWatcher | Not logged in. Run: python watchers/linkedin_watcher.py --setup
+2026-05-01 17:14:21 | ERROR    | LinkedInWatcher | LinkedIn session not found. Run --setup first to log in.
+2026-05-01 17:14:22 | INFO     | LinkedInWatcher | Browser stopped.
+2026-05-01 17:14:23 | INFO     | LinkedInWatcher | Loaded 13 seen email IDs.
+2026-05-01 17:14:23 | INFO     | LinkedInWatcher | Loaded existing token: D:\Hackthon_0\silver_tier_3\token.json
+2026-05-01 17:14:23 | INFO     | LinkedInWatcher | Gmail API service ready.
+2026-05-01 17:14:23 | INFO     | LinkedInWatcher | Vault root   : D:\Hackthon_0\silver_tier_3
+2026-05-01 17:14:23 | INFO     | LinkedInWatcher | Destination  : D:\Hackthon_0\silver_tier_3\Needs_Action
+2026-05-01 17:14:23 | INFO     | LinkedInWatcher | Poll interval: 60s
+2026-05-01 17:14:23 | INFO     | LinkedInWatcher | Max results  : 10 per cycle
+2026-05-01 17:14:26 | DEBUG    | LinkedInWatcher | Already written, skipping: EMAIL_19ced9888cfa.md
+2026-05-01 17:14:27 | DEBUG    | LinkedInWatcher | Already written, skipping: EMAIL_19ce5e355a8f.md
+2026-05-01 17:14:27 | INFO     | LinkedInWatcher | Loaded 13 seen email IDs.
+2026-05-01 17:14:27 | INFO     | LinkedInWatcher | Loaded existing token: D:\Hackthon_0\silver_tier_3\token.json
+2026-05-01 17:14:27 | INFO     | LinkedInWatcher | Gmail API service ready.
+2026-05-01 17:14:27 | INFO     | LinkedInWatcher | Vault root   : D:\Hackthon_0\silver_tier_3
+2026-05-01 17:14:27 | INFO     | LinkedInWatcher | Destination  : D:\Hackthon_0\silver_tier_3\Needs_Action
+2026-05-01 17:14:27 | INFO     | LinkedInWatcher | Poll interval: 60s
+2026-05-01 17:14:27 | INFO     | LinkedInWatcher | Max results  : 10 per cycle
+2026-05-01 17:14:28 | INFO     | LinkedInWatcher | Vault root   : D:\Hackthon_0\silver_tier_3
+2026-05-01 17:14:28 | INFO     | LinkedInWatcher | Destination  : D:\Hackthon_0\silver_tier_3\Needs_Action
+2026-05-01 17:14:28 | INFO     | LinkedInWatcher | Profile dir  : D:\Hackthon_0\silver_tier_3\Logs\linkedin_profile
+2026-05-01 17:14:28 | INFO     | LinkedInWatcher | Keywords     : ['sales', 'inquiry', 'proposal', 'pricing']
+2026-05-01 17:14:28 | INFO     | LinkedInWatcher | Poll interval: 60s
+2026-05-01 17:14:28 | INFO     | LinkedInWatcher | Headless     : False
+2026-05-01 17:14:28 | INFO     | LinkedInWatcher | Launching Chromium (headless=False)…
+2026-05-01 17:14:34 | INFO     | LinkedInWatcher | Vault root   : D:\Hackthon_0\silver_tier_3
+2026-05-01 17:14:34 | INFO     | LinkedInWatcher | Destination  : D:\Hackthon_0\silver_tier_3\Needs_Action
+2026-05-01 17:14:34 | INFO     | LinkedInWatcher | Profile dir  : D:\Hackthon_0\silver_tier_3\Logs\linkedin_profile
+2026-05-01 17:14:34 | INFO     | LinkedInWatcher | Keywords     : ['sales', 'inquiry', 'proposal', 'pricing']
+2026-05-01 17:14:34 | INFO     | LinkedInWatcher | Poll interval: 60s
+2026-05-01 17:14:34 | INFO     | LinkedInWatcher | Headless     : False
+2026-05-01 17:14:34 | INFO     | LinkedInWatcher | Launching Chromium (headless=False)…
+2026-05-01 17:14:38 | INFO     | LinkedInWatcher | Browser started.
+2026-05-01 17:14:38 | INFO     | LinkedInWatcher | Navigating to LinkedIn…
+2026-05-01 17:14:47 | WARNING  | LinkedInWatcher | Not logged in. Run: python watchers/linkedin_watcher.py --setup
+2026-05-01 17:14:47 | ERROR    | LinkedInWatcher | LinkedIn session not found. Run --setup first to log in.
+2026-05-01 17:14:48 | INFO     | LinkedInWatcher | Browser stopped.
+2026-05-01 17:14:49 | INFO     | LinkedInWatcher | Loaded 13 seen email IDs.
+2026-05-01 17:14:49 | INFO     | LinkedInWatcher | Loaded existing token: D:\Hackthon_0\silver_tier_3\token.json
+2026-05-01 17:14:49 | INFO     | LinkedInWatcher | Gmail API service ready.
+2026-05-01 17:14:49 | INFO     | LinkedInWatcher | Vault root   : D:\Hackthon_0\silver_tier_3
+2026-05-01 17:14:49 | INFO     | LinkedInWatcher | Destination  : D:\Hackthon_0\silver_tier_3\Needs_Action
+2026-05-01 17:14:49 | INFO     | LinkedInWatcher | Poll interval: 60s
+2026-05-01 17:14:49 | INFO     | LinkedInWatcher | Max results  : 10 per cycle
+2026-05-01 17:14:52 | DEBUG    | LinkedInWatcher | Already written, skipping: EMAIL_19ced9888cfa.md
+2026-05-01 17:14:52 | DEBUG    | LinkedInWatcher | Already written, skipping: EMAIL_19ce5e355a8f.md
+2026-05-01 17:14:52 | INFO     | LinkedInWatcher | Loaded 13 seen email IDs.
+2026-05-01 17:14:52 | INFO     | LinkedInWatcher | Loaded existing token: D:\Hackthon_0\silver_tier_3\token.json
+2026-05-01 17:14:52 | INFO     | LinkedInWatcher | Gmail API service ready.
+2026-05-01 17:14:52 | INFO     | LinkedInWatcher | Vault root   : D:\Hackthon_0\silver_tier_3
+2026-05-01 17:14:52 | INFO     | LinkedInWatcher | Destination  : D:\Hackthon_0\silver_tier_3\Needs_Action
+2026-05-01 17:14:52 | INFO     | LinkedInWatcher | Poll interval: 60s
+2026-05-01 17:14:52 | INFO     | LinkedInWatcher | Max results  : 10 per cycle
+2026-05-01 17:14:53 | INFO     | LinkedInWatcher | Vault root   : D:\Hackthon_0\silver_tier_3
+2026-05-01 17:14:53 | INFO     | LinkedInWatcher | Destination  : D:\Hackthon_0\silver_tier_3\Needs_Action
+2026-05-01 17:14:53 | INFO     | LinkedInWatcher | Profile dir  : D:\Hackthon_0\silver_tier_3\Logs\linkedin_profile
+2026-05-01 17:14:53 | INFO     | LinkedInWatcher | Keywords     : ['sales', 'inquiry', 'proposal', 'pricing']
+2026-05-01 17:14:53 | INFO     | LinkedInWatcher | Poll interval: 60s
+2026-05-01 17:14:53 | INFO     | LinkedInWatcher | Headless     : False
+2026-05-01 17:14:53 | INFO     | LinkedInWatcher | Launching Chromium (headless=False)…
+2026-05-01 17:14:57 | INFO     | LinkedInWatcher | Browser started.
+2026-05-01 17:14:57 | INFO     | LinkedInWatcher | Navigating to LinkedIn…
+2026-05-01 17:15:06 | ERROR    | LinkedInWatcher | Failed to load LinkedIn: Page.wait_for_selector: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("nav.global-nav, [data-test-global-nav-link]") to be visible
+
+2026-05-01 17:15:06 | ERROR    | LinkedInWatcher | LinkedIn session not found. Run --setup first to log in.
+2026-05-01 17:15:06 | INFO     | LinkedInWatcher | Browser stopped.
+2026-05-01 17:15:08 | INFO     | LinkedInWatcher | Vault root   : D:\Hackthon_0\silver_tier_3
+2026-05-01 17:15:08 | INFO     | LinkedInWatcher | Destination  : D:\Hackthon_0\silver_tier_3\Needs_Action
+2026-05-01 17:15:08 | INFO     | LinkedInWatcher | Profile dir  : D:\Hackthon_0\silver_tier_3\Logs\linkedin_profile
+2026-05-01 17:15:08 | INFO     | LinkedInWatcher | Keywords     : ['sales', 'inquiry', 'proposal', 'pricing']
+2026-05-01 17:15:08 | INFO     | LinkedInWatcher | Poll interval: 60s
+2026-05-01 17:15:08 | INFO     | LinkedInWatcher | Headless     : False
+2026-05-01 17:15:08 | INFO     | LinkedInWatcher | Launching Chromium (headless=False)…
+2026-05-01 17:15:11 | INFO     | LinkedInWatcher | Browser started.
+2026-05-01 17:15:11 | INFO     | LinkedInWatcher | Navigating to LinkedIn…
+2026-05-01 17:15:20 | WARNING  | LinkedInWatcher | Not logged in. Run: python watchers/linkedin_watcher.py --setup
+2026-05-01 17:15:20 | ERROR    | LinkedInWatcher | LinkedIn session not found. Run --setup first to log in.
+2026-05-01 17:15:21 | INFO     | LinkedInWatcher | Browser stopped.
+2026-05-01 17:15:23 | INFO     | LinkedInWatcher | Loaded 13 seen email IDs.
+2026-05-01 17:15:23 | INFO     | LinkedInWatcher | Loaded existing token: D:\Hackthon_0\silver_tier_3\token.json
+2026-05-01 17:15:23 | INFO     | LinkedInWatcher | Gmail API service ready.
+2026-05-01 17:15:23 | INFO     | LinkedInWatcher | Vault root   : D:\Hackthon_0\silver_tier_3
+2026-05-01 17:15:23 | INFO     | LinkedInWatcher | Destination  : D:\Hackthon_0\silver_tier_3\Needs_Action
+2026-05-01 17:15:23 | INFO     | LinkedInWatcher | Poll interval: 60s
+2026-05-01 17:15:23 | INFO     | LinkedInWatcher | Max results  : 10 per cycle
+2026-05-01 17:15:25 | DEBUG    | LinkedInWatcher | Already written, skipping: EMAIL_19ced9888cfa.md
+2026-05-01 17:15:26 | DEBUG    | LinkedInWatcher | Already written, skipping: EMAIL_19ce5e355a8f.md
+2026-05-01 17:15:26 | INFO     | LinkedInWatcher | Loaded 13 seen email IDs.
+2026-05-01 17:15:26 | INFO     | LinkedInWatcher | Loaded existing token: D:\Hackthon_0\silver_tier_3\token.json
+2026-05-01 17:15:26 | INFO     | LinkedInWatcher | Gmail API service ready.
+2026-05-01 17:15:26 | INFO     | LinkedInWatcher | Vault root   : D:\Hackthon_0\silver_tier_3
+2026-05-01 17:15:26 | INFO     | LinkedInWatcher | Destination  : D:\Hackthon_0\silver_tier_3\Needs_Action
+2026-05-01 17:15:26 | INFO     | LinkedInWatcher | Poll interval: 60s
+2026-05-01 17:15:26 | INFO     | LinkedInWatcher | Max results  : 10 per cycle
+2026-05-01 17:15:27 | INFO     | LinkedInWatcher | Vault root   : D:\Hackthon_0\silver_tier_3
+2026-05-01 17:15:27 | INFO     | LinkedInWatcher | Destination  : D:\Hackthon_0\silver_tier_3\Needs_Action
+2026-05-01 17:15:27 | INFO     | LinkedInWatcher | Profile dir  : D:\Hackthon_0\silver_tier_3\Logs\linkedin_profile
+2026-05-01 17:15:27 | INFO     | LinkedInWatcher | Keywords     : ['sales', 'inquiry', 'proposal', 'pricing']
+2026-05-01 17:15:27 | INFO     | LinkedInWatcher | Poll interval: 60s
+2026-05-01 17:15:27 | INFO     | LinkedInWatcher | Headless     : False
+2026-05-01 17:15:27 | INFO     | LinkedInWatcher | Launching Chromium (headless=False)…

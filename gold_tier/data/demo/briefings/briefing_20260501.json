@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-05-01T17:34:48.793856+00:00",
+  "period": "2026-04-24 \u2192 2026-05-01",
+  "executive_summary": "This week was profitable with $42,651 revenue and $12,853 expenses, yielding $29,798 net profit (69.86% margin). Task completion was 87.5% and error rate was 1.1%.",
+  "financial_highlights": {
+    "revenue": 42650.99,
+    "expenses": 12853.08,
+    "net_profit": 29797.91,
+    "margin_pct": 69.86,
+    "top_expenses": {
+      "Contractor pay": 6355.33,
+      "Cloud hosting": 3180.29,
+      "Marketing ads": 2502.08,
+      "SaaS tools": 815.38
+    }
+  },
+  "operational_highlights": {
+    "task_completion_rate": 87.5,
+    "error_rate_pct": 1.1,
+    "open_issues": 3
+  },
+  "social_highlights": {},
+  "risks": [],
+  "action_items": [
+    "Maintain current trajectory",
+    "Plan next-quarter growth initiatives"
+  ],
+  "next_week_focus": "Drive revenue growth while maintaining <2% error rate across all integrations."
+}

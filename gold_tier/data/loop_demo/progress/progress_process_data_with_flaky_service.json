@@ -1,0 +1,174 @@
+{
+  "task": "Process data with flaky service",
+  "started_at": "2026-05-01T17:42:38.480858+00:00",
+  "updated_at": "2026-05-01T17:43:14.585727+00:00",
+  "iteration_count": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "plan": [
+        {
+          "skill": "personal_business",
+          "action": "cross_domain_analysis",
+          "params": {},
+          "description": "Cross-domain analysis"
+        },
+        {
+          "skill": "audit",
+          "action": "run_weekly_audit",
+          "params": {},
+          "description": "Weekly audit"
+        }
+      ],
+      "executed": [
+        {
+          "skill": "personal_business",
+          "action": "cross_domain_analysis",
+          "params": {},
+          "description": "Cross-domain analysis",
+          "result": {
+            "success": false,
+            "error": "Skill 'personal_business' not found. Available: ['demo']"
+          }
+        },
+        {
+          "skill": "audit",
+          "action": "run_weekly_audit",
+          "params": {},
+          "description": "Weekly audit",
+          "result": {
+            "success": false,
+            "error": "Skill 'audit' not found. Available: ['demo']"
+          }
+        },
+        {
+          "skill": "personal_business",
+          "action": "cross_domain_analysis",
+          "params": {},
+          "description": "[FIX] Retry cross_domain_analysis after issue: Step failed: personal_business.cross_domain_analysis \u2014 Skill",
+          "result": {
+            "success": false,
+            "error": "Skill 'personal_business' not found. Available: ['demo']"
+          },
+          "is_fix": true
+        },
+        {
+          "skill": "audit",
+          "action": "run_weekly_audit",
+          "params": {},
+          "description": "[FIX] Retry run_weekly_audit after issue: Step failed: audit.run_weekly_audit \u2014 Skill 'audit' not foun",
+          "result": {
+            "success": false,
+            "error": "Skill 'audit' not found. Available: ['demo']"
+          },
+          "is_fix": true
+        }
+      ],
+      "verify_passed": false,
+      "issues": [
+        "Step failed: personal_business.cross_domain_analysis \u2014 Skill 'personal_business' not found. Available: ['demo']",
+        "Step failed: audit.run_weekly_audit \u2014 Skill 'audit' not found. Available: ['demo']"
+      ],
+      "fix_attempts": 2,
+      "status": "failed",
+      "duration_ms": 7.75,
+      "timestamp": "2026-05-01T17:43:14.551650+00:00"
+    },
+    {
+      "iteration": 2,
+      "plan": [
+        {
+          "skill": "personal_business",
+          "action": "list_tasks",
+          "params": {
+            "status": "blocked"
+          },
+          "description": "Check blocked tasks"
+        }
+      ],
+      "executed": [
+        {
+          "skill": "personal_business",
+          "action": "list_tasks",
+          "params": {
+            "status": "blocked"
+          },
+          "description": "Check blocked tasks",
+          "result": {
+            "success": false,
+            "error": "Skill 'personal_business' not found. Available: ['demo']"
+          }
+        },
+        {
+          "skill": "personal_business",
+          "action": "list_tasks",
+          "params": {
+            "status": "blocked"
+          },
+          "description": "[FIX] Retry list_tasks after issue: Step failed: personal_business.list_tasks \u2014 Skill 'personal_",
+          "result": {
+            "success": false,
+            "error": "Skill 'personal_business' not found. Available: ['demo']"
+          },
+          "is_fix": true
+        }
+      ],
+      "verify_passed": false,
+      "issues": [
+        "Step failed: personal_business.list_tasks \u2014 Skill 'personal_business' not found. Available: ['demo']"
+      ],
+      "fix_attempts": 1,
+      "status": "failed",
+      "duration_ms": 2.97,
+      "timestamp": "2026-05-01T17:43:14.569497+00:00"
+    },
+    {
+      "iteration": 3,
+      "plan": [
+        {
+          "skill": "personal_business",
+          "action": "list_tasks",
+          "params": {
+            "status": "blocked"
+          },
+          "description": "Check blocked tasks"
+        }
+      ],
+      "executed": [
+        {
+          "skill": "personal_business",
+          "action": "list_tasks",
+          "params": {
+            "status": "blocked"
+          },
+          "description": "Check blocked tasks",
+          "result": {
+            "success": false,
+            "error": "Skill 'personal_business' not found. Available: ['demo']"
+          }
+        },
+        {
+          "skill": "personal_business",
+          "action": "list_tasks",
+          "params": {
+            "status": "blocked"
+          },
+          "description": "[FIX] Retry list_tasks after issue: Step failed: personal_business.list_tasks \u2014 Skill 'personal_",
+          "result": {
+            "success": false,
+            "error": "Skill 'personal_business' not found. Available: ['demo']"
+          },
+          "is_fix": true
+        }
+      ],
+      "verify_passed": false,
+      "issues": [
+        "Step failed: personal_business.list_tasks \u2014 Skill 'personal_business' not found. Available: ['demo']"
+      ],
+      "fix_attempts": 1,
+      "status": "failed",
+      "duration_ms": 3.96,
+      "timestamp": "2026-05-01T17:43:14.585694+00:00"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "task": "Process data with flaky service",
+  "started_at": "2026-05-01T17:44:08.709365+00:00",
+  "updated_at": "2026-05-01T17:44:08.736169+00:00",
+  "iteration_count": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "plan": [
+        {
+          "skill": "demo",
+          "action": "flaky_task",
+          "params": {
+            "data": "important data"
+          },
+          "description": "Process data with flaky service"
+        },
+        {
+          "skill": "demo",
+          "action": "reliable_task",
+          "params": {
+            "message": "backup task"
+          },
+          "description": "Run reliable backup task"
+        }
+      ],
+      "executed": [
+        {
+          "skill": "demo",
+          "action": "flaky_task",
+          "params": {
+            "data": "important data"
+          },
+          "description": "Process data with flaky service",
+          "result": {
+            "success": false,
+            "data": null,
+            "error": "Transient failure #1",
+            "skill": "demo",
+            "action": "flaky_task",
+            "duration_ms": 10.85,
+            "fallback_used": false
+          }
+        },
+        {
+          "skill": "demo",
+          "action": "reliable_task",
+          "params": {
+            "message": "backup task"
+          },
+          "description": "Run reliable backup task",
+          "result": {
+            "success": true,
+            "data": {
+              "status": "success",
+              "message": "backup task",
+              "call_number": 1
+            },
+            "error": null,
+            "skill": "demo",
+            "action": "reliable_task",
+            "duration_ms": 1.22,
+            "fallback_used": false
+          }
+        },
+        {
+          "skill": "demo",
+          "action": "flaky_task",
+          "params": {
+            "data": "important data"
+          },
+          "description": "[FIX] Retry flaky_task after issue: Step failed: demo.flaky_task \u2014 Transient failure #1",
+          "result": {
+            "success": false,
+            "data": null,
+            "error": "Transient failure #2",
+            "skill": "demo",
+            "action": "flaky_task",
+            "duration_ms": 0.97,
+            "fallback_used": false
+          },
+          "is_fix": true
+        }
+      ],
+      "verify_passed": false,
+      "issues": [
+        "Step failed: demo.flaky_task \u2014 Transient failure #1"
+      ],
+      "fix_attempts": 1,
+      "status": "failed",
+      "duration_ms": 16.78,
+      "timestamp": "2026-05-01T17:44:08.727725+00:00"
+    },
+    {
+      "iteration": 2,
+      "plan": [
+        {
+          "skill": "demo",
+          "action": "reliable_task",
+          "params": {
+            "message": "iteration 2 task"
+          },
+          "description": "Continue with reliable task"
+        }
+      ],
+      "executed": [
+        {
+          "skill": "demo",
+          "action": "reliable_task",
+          "params": {
+            "message": "iteration 2 task"
+          },
+          "description": "Continue with reliable task",
+          "result": {
+            "success": true,
+            "data": {
+              "status": "success",
+              "message": "iteration 2 task",
+              "call_number": 2
+            },
+            "error": null,
+            "skill": "demo",
+            "action": "reliable_task",
+            "duration_ms": 1.75,
+            "fallback_used": false
+          }
+        }
+      ],
+      "verify_passed": true,
+      "issues": [],
+      "fix_attempts": 0,
+      "status": "success",
+      "duration_ms": 6.43,
+      "timestamp": "2026-05-01T17:44:08.736140+00:00"
+    }
+  ]
+}

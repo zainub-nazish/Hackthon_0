@@ -1,0 +1,159 @@
+{
+  "task": "Post weekly summary to all social platforms",
+  "started_at": "2026-05-01T17:38:18.265368+00:00",
+  "updated_at": "2026-05-01T17:38:18.297699+00:00",
+  "iteration_count": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "plan": [
+        {
+          "skill": "audit",
+          "action": "run_weekly_audit",
+          "params": {},
+          "description": "Run weekly audit + CEO briefing"
+        },
+        {
+          "skill": "personal_business",
+          "action": "cross_domain_analysis",
+          "params": {},
+          "description": "Cross-domain task analysis"
+        }
+      ],
+      "executed": [
+        {
+          "skill": "audit",
+          "action": "run_weekly_audit",
+          "params": {},
+          "description": "Run weekly audit + CEO briefing",
+          "result": {
+            "success": true,
+            "data": {
+              "period": "2026-04-24 \u2192 2026-05-01",
+              "executive_summary": "This week was profitable with $19,592 revenue and $5,251 expenses, yielding $14,342 net profit (73.2% margin). Task completion was 87.5% and error rate was 1.1%.",
+              "financial": {
+                "revenue": 19592.3,
+                "expenses": 5250.72,
+                "net_profit": 14341.58,
+                "margin_pct": 73.2,
+                "top_expenses": {
+                  "Contractor pay": 4275.29,
+                  "Marketing ads": 456.85,
+                  "Cloud hosting": 339.51,
+                  "SaaS tools": 179.07
+                }
+              },
+              "operational": {
+                "task_completion_rate": 87.5,
+                "error_rate_pct": 1.1,
+                "open_issues": 3
+              },
+              "risks": [],
+              "action_items": [
+                "Maintain current trajectory",
+                "Plan next-quarter growth initiatives"
+              ],
+              "briefing_path": "data\\ralph_demo\\briefings\\briefing_20260501.md"
+            },
+            "error": null,
+            "skill": "audit",
+            "action": "run_weekly_audit",
+            "duration_ms": 19.51,
+            "fallback_used": false
+          }
+        },
+        {
+          "skill": "personal_business",
+          "action": "cross_domain_analysis",
+          "params": {},
+          "description": "Cross-domain task analysis",
+          "result": {
+            "success": true,
+            "data": {
+              "total_tasks": 6,
+              "by_domain": {
+                "business": 4,
+                "personal": 1,
+                "shared": 1
+              },
+              "by_priority": {
+                "critical": 1,
+                "high": 1,
+                "medium": 2,
+                "low": 2
+              },
+              "by_status": {
+                "pending": 6
+              },
+              "overdue_count": 0,
+              "completion_rate": 0.0,
+              "bottlenecks": [],
+              "recommendations": [
+                "Completion rate below 70% \u2014 review task sizing and delegation"
+              ],
+              "generated_at": "2026-05-01T17:38:18.288806+00:00"
+            },
+            "error": null,
+            "skill": "personal_business",
+            "action": "cross_domain_analysis",
+            "duration_ms": 2.66,
+            "fallback_used": false
+          }
+        }
+      ],
+      "verify_passed": false,
+      "issues": [
+        "No social post action was executed",
+        "Exit criteria not yet satisfied: 'all_platforms_posted'"
+      ],
+      "fix_attempts": 0,
+      "status": "partial",
+      "duration_ms": 23.51,
+      "timestamp": "2026-05-01T17:38:18.289487+00:00"
+    },
+    {
+      "iteration": 2,
+      "plan": [
+        {
+          "skill": "personal_business",
+          "action": "list_tasks",
+          "params": {
+            "status": "blocked"
+          },
+          "description": "Check blocked tasks"
+        }
+      ],
+      "executed": [
+        {
+          "skill": "personal_business",
+          "action": "list_tasks",
+          "params": {
+            "status": "blocked"
+          },
+          "description": "Check blocked tasks",
+          "result": {
+            "success": true,
+            "data": {
+              "tasks": [],
+              "count": 0
+            },
+            "error": null,
+            "skill": "personal_business",
+            "action": "list_tasks",
+            "duration_ms": 2.0,
+            "fallback_used": false
+          }
+        }
+      ],
+      "verify_passed": false,
+      "issues": [
+        "No social post action was executed",
+        "Exit criteria not yet satisfied: 'all_platforms_posted'"
+      ],
+      "fix_attempts": 0,
+      "status": "partial",
+      "duration_ms": 4.95,
+      "timestamp": "2026-05-01T17:38:18.297668+00:00"
+    }
+  ]
+}

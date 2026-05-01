@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "gold_tier_social": {
+      "command": "python",
+      "args": ["-m", "mcp_servers.social_mcp"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "DRY_RUN": "true",
+        "PYTHONPATH": "${workspaceFolder}"
+      }
+    },
+    "gold_tier_audit": {
+      "command": "python",
+      "args": ["-m", "mcp_servers.audit_mcp"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      }
+    },
+    "gold_tier_recovery": {
+      "command": "python",
+      "args": ["-m", "mcp_servers.recovery_mcp"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      }
+    }
+  }
+}

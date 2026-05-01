@@ -1,0 +1,112 @@
+{
+  "task": "Run daily briefing and analyze tasks",
+  "started_at": "2026-05-01T17:34:27.298635+00:00",
+  "updated_at": "2026-05-01T17:34:48.831402+00:00",
+  "iteration_count": 1,
+  "iterations": [
+    {
+      "iteration": 1,
+      "plan": [
+        {
+          "skill": "audit",
+          "action": "run_weekly_audit",
+          "params": {},
+          "description": "Run weekly audit + CEO briefing"
+        },
+        {
+          "skill": "personal_business",
+          "action": "cross_domain_analysis",
+          "params": {},
+          "description": "Cross-domain task analysis"
+        }
+      ],
+      "executed": [
+        {
+          "skill": "audit",
+          "action": "run_weekly_audit",
+          "params": {},
+          "description": "Run weekly audit + CEO briefing",
+          "result": {
+            "success": true,
+            "data": {
+              "period": "2026-04-24 \u2192 2026-05-01",
+              "executive_summary": "This week was profitable with $42,651 revenue and $12,853 expenses, yielding $29,798 net profit (69.86% margin). Task completion was 87.5% and error rate was 1.1%.",
+              "financial": {
+                "revenue": 42650.99,
+                "expenses": 12853.08,
+                "net_profit": 29797.91,
+                "margin_pct": 69.86,
+                "top_expenses": {
+                  "Contractor pay": 6355.33,
+                  "Cloud hosting": 3180.29,
+                  "Marketing ads": 2502.08,
+                  "SaaS tools": 815.38
+                }
+              },
+              "operational": {
+                "task_completion_rate": 87.5,
+                "error_rate_pct": 1.1,
+                "open_issues": 3
+              },
+              "risks": [],
+              "action_items": [
+                "Maintain current trajectory",
+                "Plan next-quarter growth initiatives"
+              ],
+              "briefing_path": "data\\demo\\briefings\\briefing_20260501.md"
+            },
+            "error": null,
+            "skill": "audit",
+            "action": "run_weekly_audit",
+            "duration_ms": 74.12,
+            "fallback_used": false
+          }
+        },
+        {
+          "skill": "personal_business",
+          "action": "cross_domain_analysis",
+          "params": {},
+          "description": "Cross-domain task analysis",
+          "result": {
+            "success": true,
+            "data": {
+              "total_tasks": 18,
+              "by_domain": {
+                "business": 12,
+                "personal": 3,
+                "shared": 3
+              },
+              "by_priority": {
+                "critical": 3,
+                "high": 3,
+                "medium": 6,
+                "low": 6
+              },
+              "by_status": {
+                "pending": 18
+              },
+              "overdue_count": 0,
+              "completion_rate": 0.0,
+              "bottlenecks": [],
+              "recommendations": [
+                "Completion rate below 70% \u2014 review task sizing and delegation"
+              ],
+              "generated_at": "2026-05-01T17:34:48.831082+00:00"
+            },
+            "error": null,
+            "skill": "personal_business",
+            "action": "cross_domain_analysis",
+            "duration_ms": 2.07,
+            "fallback_used": false
+          }
+        }
+      ],
+      "verify_passed": true,
+      "issues": [],
+      "fix_attempts": 0,
+      "status": "success",
+      "duration_ms": 77.97,
+      "timestamp": "2026-05-01T17:34:48.831390+00:00"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+app:
+  name: "Gold Tier Autonomous Employee"
+  version: "1.0.0"
+  log_level: "INFO"
+  max_iterations: 25          # Ralph Wiggum loop cap
+  step_timeout_seconds: 60
+  retry_attempts: 3
+  retry_backoff_multiplier: 2
+
+orchestrator:
+  loop_sleep_seconds: 5
+  goal_check_interval: 3
+  checkpoint_on_each_step: true
+  enable_dry_run: false
+
+social:
+  platforms:
+    - facebook
+    - instagram
+    - twitter
+  default_post_delay_seconds: 2
+  summary_window_days: 7
+  max_post_length:
+    twitter: 280
+    facebook: 63206
+    instagram: 2200
+
+audit:
+  schedule_cron: "0 8 * * MON"      # Every Monday 08:00
+  data_dir: "data/"
+  db_file: "data/audit.db"
+  csv_export_dir: "data/exports/"
+  briefing_output_dir: "data/briefings/"
+  metrics:
+    - revenue
+    - expenses
+    - net_profit
+    - task_completion_rate
+    - social_engagement
+    - error_rate
+  alert_thresholds:
+    expense_spike_pct: 20
+    error_rate_pct: 5
+    task_backlog_count: 10
+
+recovery:
+  max_retries: 3
+  circuit_breaker_threshold: 5     # failures before open
+  circuit_breaker_timeout: 60      # seconds before half-open
+  fallback_enabled: true
+  notify_on_circuit_open: true
+
+logging:
+  dir: "logs/"
+  audit_file: "logs/audit.jsonl"
+  error_file: "logs/errors.jsonl"
+  actions_file: "logs/actions.jsonl"
+  rotation_max_bytes: 10485760     # 10 MB
+  rotation_backup_count: 5
+  format: "json"
+
+mcp_servers:
+  social:
+    host: "127.0.0.1"
+    port: 8001
+    transport: "stdio"
+  audit:
+    host: "127.0.0.1"
+    port: 8002
+    transport: "stdio"
+  recovery:
+    host: "127.0.0.1"
+    port: 8003
+    transport: "stdio"

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "social-media": {
+      "command": "python",
+      "args": [
+        "D:/hackthon_0_/gold_tier/mcp_servers/social_mcp.py"
+      ],
+      "env": {
+        "PYTHONPATH": "D:/hackthon_0_/gold_tier"
+      }
+    }
+  }
+}

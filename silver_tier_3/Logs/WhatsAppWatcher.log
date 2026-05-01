@@ -1078,3 +1078,95 @@ niha': 4 message(s), no keyword matches.
 2026-04-23 09:21:30 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.
 2026-04-23 09:21:48 | WARNING  | WhatsAppWatcher | Error stopping browser: BrowserContext.close: Connection closed while reading from the driver
 2026-04-23 09:21:48 | INFO     | WhatsAppWatcher | Browser stopped.
+2026-05-01 17:01:49 | INFO     | WhatsAppWatcher | Vault root   : D:\Hackthon_0\silver_tier_3
+2026-05-01 17:01:49 | INFO     | WhatsAppWatcher | Destination  : D:\Hackthon_0\silver_tier_3\Needs_Action
+2026-05-01 17:01:49 | INFO     | WhatsAppWatcher | Profile dir  : D:\Hackthon_0\silver_tier_3\Logs\whatsapp_profile
+2026-05-01 17:01:49 | INFO     | WhatsAppWatcher | Keywords     : ['urgent', 'invoice', 'payment', 'pricing', 'asap']
+2026-05-01 17:01:49 | INFO     | WhatsAppWatcher | Poll interval: 30s
+2026-05-01 17:01:49 | INFO     | WhatsAppWatcher | Headless     : False
+2026-05-01 17:01:49 | INFO     | WhatsAppWatcher | Launching Chromium (headless=False)…
+2026-05-01 17:01:54 | INFO     | WhatsAppWatcher | Browser started.
+2026-05-01 17:01:54 | INFO     | WhatsAppWatcher | Navigating to WhatsApp Web…
+2026-05-01 17:02:12 | INFO     | WhatsAppWatcher | WhatsApp Web loaded and logged in.
+2026-05-01 17:02:12 | INFO     | WhatsAppWatcher | WhatsAppWatcher started. Press Ctrl+C to stop.
+2026-05-01 17:02:12 | DEBUG    | WhatsAppWatcher | --- WhatsApp poll cycle ---
+2026-05-01 17:02:12 | DEBUG    | WhatsAppWatcher | No unread chats found.
+2026-05-01 17:02:12 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.
+2026-05-01 17:02:42 | DEBUG    | WhatsAppWatcher | --- WhatsApp poll cycle ---
+2026-05-01 17:02:42 | ERROR    | WhatsAppWatcher | Error scanning chat list: Page.query_selector_all: Target page, context or browser has been closed
+2026-05-01 17:02:42 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.
+2026-05-01 17:03:12 | DEBUG    | WhatsAppWatcher | --- WhatsApp poll cycle ---
+2026-05-01 17:03:12 | ERROR    | WhatsAppWatcher | Error scanning chat list: Page.query_selector_all: Target page, context or browser has been closed
+2026-05-01 17:03:12 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.
+2026-05-01 17:03:42 | DEBUG    | WhatsAppWatcher | --- WhatsApp poll cycle ---
+2026-05-01 17:03:42 | ERROR    | WhatsAppWatcher | Error scanning chat list: Page.query_selector_all: Target page, context or browser has been closed
+2026-05-01 17:03:42 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.
+2026-05-01 17:04:12 | DEBUG    | WhatsAppWatcher | --- WhatsApp poll cycle ---
+2026-05-01 17:04:12 | ERROR    | WhatsAppWatcher | Error scanning chat list: Page.query_selector_all: Target page, context or browser has been closed
+2026-05-01 17:04:12 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.
+2026-05-01 17:04:42 | DEBUG    | WhatsAppWatcher | --- WhatsApp poll cycle ---
+2026-05-01 17:04:42 | ERROR    | WhatsAppWatcher | Error scanning chat list: Page.query_selector_all: Target page, context or browser has been closed
+2026-05-01 17:04:42 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.
+2026-05-01 17:05:12 | DEBUG    | WhatsAppWatcher | --- WhatsApp poll cycle ---
+2026-05-01 17:05:12 | ERROR    | WhatsAppWatcher | Error scanning chat list: Page.query_selector_all: Target page, context or browser has been closed
+2026-05-01 17:05:12 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.
+2026-05-01 17:05:42 | DEBUG    | WhatsAppWatcher | --- WhatsApp poll cycle ---
+2026-05-01 17:05:42 | ERROR    | WhatsAppWatcher | Error scanning chat list: Page.query_selector_all: Target page, context or browser has been closed
+2026-05-01 17:05:42 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.
+2026-05-01 17:06:12 | DEBUG    | WhatsAppWatcher | --- WhatsApp poll cycle ---
+2026-05-01 17:06:12 | ERROR    | WhatsAppWatcher | Error scanning chat list: Page.query_selector_all: Target page, context or browser has been closed
+2026-05-01 17:06:12 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.
+2026-05-01 17:06:42 | DEBUG    | WhatsAppWatcher | --- WhatsApp poll cycle ---
+2026-05-01 17:06:42 | ERROR    | WhatsAppWatcher | Error scanning chat list: Page.query_selector_all: Target page, context or browser has been closed
+2026-05-01 17:06:42 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.
+2026-05-01 17:07:12 | DEBUG    | WhatsAppWatcher | --- WhatsApp poll cycle ---
+2026-05-01 17:07:12 | ERROR    | WhatsAppWatcher | Error scanning chat list: Page.query_selector_all: Target page, context or browser has been closed
+2026-05-01 17:07:12 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.
+2026-05-01 17:07:42 | DEBUG    | WhatsAppWatcher | --- WhatsApp poll cycle ---
+2026-05-01 17:07:42 | ERROR    | WhatsAppWatcher | Error scanning chat list: Page.query_selector_all: Target page, context or browser has been closed
+2026-05-01 17:07:42 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.
+2026-05-01 17:08:12 | DEBUG    | WhatsAppWatcher | --- WhatsApp poll cycle ---
+2026-05-01 17:08:12 | ERROR    | WhatsAppWatcher | Error scanning chat list: Page.query_selector_all: Target page, context or browser has been closed
+2026-05-01 17:08:12 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.
+2026-05-01 17:08:42 | DEBUG    | WhatsAppWatcher | --- WhatsApp poll cycle ---
+2026-05-01 17:08:42 | ERROR    | WhatsAppWatcher | Error scanning chat list: Page.query_selector_all: Target page, context or browser has been closed
+2026-05-01 17:08:42 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.
+2026-05-01 17:09:12 | DEBUG    | WhatsAppWatcher | --- WhatsApp poll cycle ---
+2026-05-01 17:09:12 | ERROR    | WhatsAppWatcher | Error scanning chat list: Page.query_selector_all: Target page, context or browser has been closed
+2026-05-01 17:09:12 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.
+2026-05-01 17:09:42 | DEBUG    | WhatsAppWatcher | --- WhatsApp poll cycle ---
+2026-05-01 17:09:42 | ERROR    | WhatsAppWatcher | Error scanning chat list: Page.query_selector_all: Target page, context or browser has been closed
+2026-05-01 17:09:42 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.
+2026-05-01 17:10:12 | DEBUG    | WhatsAppWatcher | --- WhatsApp poll cycle ---
+2026-05-01 17:10:12 | ERROR    | WhatsAppWatcher | Error scanning chat list: Page.query_selector_all: Target page, context or browser has been closed
+2026-05-01 17:10:12 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.
+2026-05-01 17:10:42 | DEBUG    | WhatsAppWatcher | --- WhatsApp poll cycle ---
+2026-05-01 17:10:42 | ERROR    | WhatsAppWatcher | Error scanning chat list: Page.query_selector_all: Target page, context or browser has been closed
+2026-05-01 17:10:42 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.
+2026-05-01 17:11:12 | DEBUG    | WhatsAppWatcher | --- WhatsApp poll cycle ---
+2026-05-01 17:11:12 | ERROR    | WhatsAppWatcher | Error scanning chat list: Page.query_selector_all: Target page, context or browser has been closed
+2026-05-01 17:11:12 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.
+2026-05-01 17:11:42 | DEBUG    | WhatsAppWatcher | --- WhatsApp poll cycle ---
+2026-05-01 17:11:42 | ERROR    | WhatsAppWatcher | Error scanning chat list: Page.query_selector_all: Target page, context or browser has been closed
+2026-05-01 17:11:42 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.
+2026-05-01 17:12:12 | DEBUG    | WhatsAppWatcher | --- WhatsApp poll cycle ---
+2026-05-01 17:12:12 | ERROR    | WhatsAppWatcher | Error scanning chat list: Page.query_selector_all: Target page, context or browser has been closed
+2026-05-01 17:12:12 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.
+2026-05-01 17:12:42 | DEBUG    | WhatsAppWatcher | --- WhatsApp poll cycle ---
+2026-05-01 17:12:42 | ERROR    | WhatsAppWatcher | Error scanning chat list: Page.query_selector_all: Target page, context or browser has been closed
+2026-05-01 17:12:42 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.
+2026-05-01 17:13:12 | DEBUG    | WhatsAppWatcher | --- WhatsApp poll cycle ---
+2026-05-01 17:13:12 | ERROR    | WhatsAppWatcher | Error scanning chat list: Page.query_selector_all: Target page, context or browser has been closed
+2026-05-01 17:13:12 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.
+2026-05-01 17:13:42 | DEBUG    | WhatsAppWatcher | --- WhatsApp poll cycle ---
+2026-05-01 17:13:42 | ERROR    | WhatsAppWatcher | Error scanning chat list: Page.query_selector_all: Target page, context or browser has been closed
+2026-05-01 17:13:42 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.
+2026-05-01 17:14:12 | DEBUG    | WhatsAppWatcher | --- WhatsApp poll cycle ---
+2026-05-01 17:14:12 | ERROR    | WhatsAppWatcher | Error scanning chat list: Page.query_selector_all: Target page, context or browser has been closed
+2026-05-01 17:14:12 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.
+2026-05-01 17:14:42 | DEBUG    | WhatsAppWatcher | --- WhatsApp poll cycle ---
+2026-05-01 17:14:42 | ERROR    | WhatsAppWatcher | Error scanning chat list: Page.query_selector_all: Target page, context or browser has been closed
+2026-05-01 17:14:42 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.
+2026-05-01 17:15:12 | DEBUG    | WhatsAppWatcher | --- WhatsApp poll cycle ---
+2026-05-01 17:15:12 | ERROR    | WhatsAppWatcher | Error scanning chat list: Page.query_selector_all: Target page, context or browser has been closed
+2026-05-01 17:15:12 | DEBUG    | WhatsAppWatcher | Sleeping 30s before next poll.

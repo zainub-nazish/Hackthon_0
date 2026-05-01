@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-05-01T17:32:12.946652+00:00",
+  "period": "2026-04-24 \u2192 2026-05-01",
+  "executive_summary": "This week was at a loss with $0 revenue and $0 expenses, yielding $0 net profit (0% margin). Task completion was 87.5% and error rate was 1.1%.",
+  "financial_highlights": {
+    "revenue": 0,
+    "expenses": 0,
+    "net_profit": 0,
+    "margin_pct": 0,
+    "top_expenses": {}
+  },
+  "operational_highlights": {
+    "task_completion_rate": 87.5,
+    "error_rate_pct": 1.1,
+    "open_issues": 3
+  },
+  "social_highlights": {},
+  "risks": [
+    "No financial data for this period \u2014 seed data or connect data source"
+  ],
+  "action_items": [
+    "Maintain current trajectory",
+    "Plan next-quarter growth initiatives"
+  ],
+  "next_week_focus": "Drive revenue growth while maintaining <2% error rate across all integrations."
+}
